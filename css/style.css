@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: red;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+button:hover {
+  color: yellow;
+}
+
+body {
+  background-color: white;
+}
+
+header .header__nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+  width: 100%;
+}
+header .header__nav__right {
+  display: flex;
+  gap: 40px;
+  margin-left: 280px;
+}
+header .header__nav__left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-right: 40px;
+}
+header .header__nav__left__resquest {
+  padding: 12px 30px;
+  background-color: rgb(22, 64, 56);
+  color: rgb(225, 255, 160);
+  border-radius: 30px;
+  border: none;
+}
+
+.hero {
+  background-image: url(/img/hero.svg);
+  width: 100%;
+  height: 880px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero__info__title {
+  font-size: 30px;
+  width: 620px;
+}
+
+.hero__info__title h1 {
+  color: white;
+  font-weight: 200;
+}
+
+.hero__info__discription {
+  font-size: larger;
+}
+
+.hero__info__discription p {
+  color: white;
+}
+
+.hero__info__buttons {
+  margin-top: 50px;
+  display: flex;
+  width: 26%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__info__buttons__btn1 {
+  border: none;
+  padding: 12px 20px;
+  background-color: rgb(225, 255, 160);
+  color: rgb(12, 37, 32);
+  border-radius: 30px;
+}
+
+.hero__info__buttons a {
+  color: white;
+}
