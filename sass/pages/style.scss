@@ -1,4 +1,9 @@
+// @use "../layout/footer";
+// @use "../layout/header";
+// @import "../pages/main__page/mainPage";
+// @use "../base/reset"
+
 @use "../base/reset";
 @use "../layout/footer";
 @use "../layout/header";
-@import "../pages/main__page/mainPage"
+@import "../pages/main__page/mainPage";

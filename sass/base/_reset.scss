@@ -5,7 +5,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -21,10 +21,9 @@ button{
 }
 
 .container{
-    width: 85%;
-    margin: 0 auto;
-    max-width: 1440px;
+    padding: 0 7.5%;
 }
+
 
 .df{
     display: flex;

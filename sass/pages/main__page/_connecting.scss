@@ -1,0 +1,52 @@
+.connecting{
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    padding-top: 140px;
+    display: flex;
+    background-color: rgba(22, 64, 56, 1);
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__title{
+            font-size: 30px;
+            width: 620px;
+            h1{
+                color: white;
+                font-weight: 200;
+            }
+        }
+
+        &__discription{
+            font-size: larger;
+            p{
+                color: white;
+            }
+        }
+
+        &__buttons{
+            margin-top: 50px;
+            display: flex;
+            width: 26%;
+            align-items: center;
+            justify-content: space-between;
+
+            &__btn1{
+                border: none;
+                padding: 12px 20px;
+                background-color: rgba(225, 255, 160, 1);
+                color: rgba(12, 37, 32, 1);
+                border-radius: 30px;
+            }
+
+            a{
+                color: white;
+            }
+        }
+    }
+}

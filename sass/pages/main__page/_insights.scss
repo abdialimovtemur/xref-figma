@@ -1,0 +1,16 @@
+.insights{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    padding-top: 40px;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 22%;
+        align-items: center;
+        text-align: center;
+    }
+}
